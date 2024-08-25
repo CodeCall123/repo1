@@ -1,4 +1,3 @@
-
 # Zero Knowledge Application Development
 
 ## Overview
@@ -7,15 +6,15 @@ Welcome to the Zero Knowledge (ZK) application development repository! This proj
 
 ## Project Structure
 
+The project is organized into the following directories and files:
 
-
-## Getting Started
-
-1. **Clone the repository**:
- 
-
-2. **Install dependencies**:
-
-
-3. **Set up environment variables**:
-
+- **`src/`**: Contains the source code for the application.
+  - **`components/`**: Reusable React components.
+  - **`pages/`**: Specific pages for the application.
+  - **`zk/`**: Zero Knowledge proof implementations and related logic.
+  - **`utils/`**: Utility functions and helpers.
+- **`public/`**: Public assets such as images, fonts, and HTML templates.
+- **`config/`**: Configuration files for different environments.
+- **`tests/`**: Unit and integration tests for the application.
+- **`docs/`**: Documentation related to the project, including setup guides, architecture overviews, and more.
+- **`scripts/`**: Automation scripts for tasks such as deployment, testing, and building.
